@@ -25,13 +25,19 @@ Let's imagine a **RAM**, like a group of boxes where we will store our data. Eac
 <img src="https://drive.google.com/uc?export=view&id=1FN5-8Olv86dtptcw4Ac-Buh3DxDxiDvP"/>
 
 When we declare a variable we are reserving a specific number of little boxes, for example if in C# we use the byte data type, we will be reserving a little box.
+
 <img src="https://drive.google.com/uc?export=view&id=1xgq4RYzZeGWXvp4ea1VHWxNTy_tmKvfF"/>
-if we choose the int data type, we will be reserving 4 boxes.
+
+If we choose the int data type, we will be reserving 4 boxes.
+
 <img src="https://drive.google.com/uc?export=view&id=1dmv97taF2hD2bX9CA2hepr9clEpPgg6z"/>
 
 The value that we store in the variable could occupy all the space of the cells or a fraction of it. That is why a data type has a minimum value and a maximum value, for example if the value 255 is stored in the variable declared with byte, it will completely fill the reserved box.
+
 <img src="https://drive.google.com/uc?export=view&id=1yYMot2GHPTc60P5tihjv8Xak-A4fAR3U"/>
+
 But if the value 127 is stored, it will fill almost half of the box and the rest will go to waste. Therefore, in a strongly typed language it is very important to choose the best way to declare the variable according to the context, *so as not to waste **RAM.***
+
 <img src="https://drive.google.com/uc?export=view&id=1dSvF-yAIl6XvOsrrBXo4SyauH5y_jxDT"/>
 
 Let's give an example, if in our program we need to store the age of a person, we must analyze the following:
@@ -43,6 +49,7 @@ Let's give an example, if in our program we need to store the age of a person, w
 With this premise we can better choose the type of data, which in this case would be byte, because the maximum value of a byte is 255 and an age will never exceed that number or fill half the box.
 
 But if we decide to define it as uint, our variable will behave in the same way, but it will have more reserved space and therefore garbage space that will never be used.
+
 <img src="https://drive.google.com/uc?export=view&id=1JzjjxYc3sJ1zj-TIoPa_4s9jdL7pmLjD"/>
 
 **And remember that in Aprehende, you really learn**
